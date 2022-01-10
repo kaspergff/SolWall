@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2"
+    "autoprefixer": "^10.4.2",
+    "node-forge": ">=1.0.0",
+    "immer": ">=9.0.6"
   }
 }
