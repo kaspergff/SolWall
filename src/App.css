@@ -1,9 +1,9 @@
 .App {
   height: 100vh;
   background-color: #1a202c;
-  overflow: scroll;
+  overflow-y: scroll;
   text-align: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container {
@@ -66,15 +66,30 @@
   margin-left: 10px;
 }
 
+.like-button {
+  background: -webkit-linear-gradient(left, #ce44b0, #e2355b);
+  cursor: pointer;
+  animation: gradient-animation 4s ease infinite;
+  height: 45px;
+  border: 0;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
-  left: 0;
+  /* left: 0; */
   padding-bottom: 45px;
+  padding-top: 80px;
 }
 
 .twitter-logo {
@@ -126,6 +141,20 @@
   margin: 50px auto;
 }
 
+.connected-container input[type='number'] {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  height: 60px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
 .connected-container button {
   height: 50px;
 }
@@ -134,7 +163,4 @@
   color: white;
   font-size: 0.6em
   
-}
-p{
-  /* font-size: 0.5em; */
 }

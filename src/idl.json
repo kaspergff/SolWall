@@ -63,6 +63,32 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "name": "sendSol",
+      "accounts": [
+        {
+          "name": "from",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "to",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "string"
+        }
+      ]
     }
   ],
   "accounts": [
